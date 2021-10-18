@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OXU.Interfaces\OXU.Interfaces.csproj" />
+    <ProjectReference Include="..\OXY.Data\OXY.Data.csproj" />
+  </ItemGroup>
+
+</Project>
