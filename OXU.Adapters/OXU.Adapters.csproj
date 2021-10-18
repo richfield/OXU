@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.7.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\OXU.Interfaces\OXU.Interfaces.csproj" />
     <ProjectReference Include="..\OXY.Data\OXY.Data.csproj" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using OfficeOpenXml;
 using OXU.Data.Model;
 using OXU.Interfaces;
 using System;
@@ -12,6 +13,14 @@ namespace OXU.Adapters
     {
         public IEnumerable<ExcelObject> Process(IFormFile file)
         {
+
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+            using (var package = new ExcelPackage(file.OpenReadStream()))
+            {
+
+            }
+
             var list = new List<ExcelObject>();
 
             return list;
