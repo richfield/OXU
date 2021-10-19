@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using OXU.Data.Model;
-using System;
 using System.Collections.Generic;
-using System.IO;
 
 namespace OXU.Interfaces
 {
