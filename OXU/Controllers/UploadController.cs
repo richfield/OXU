@@ -21,7 +21,7 @@ namespace OXU.Controllers
         }
 
         [HttpPost]
-        public IEnumerable<ExcelObject> Upload(IFormFile file)
+        public IEnumerable<Dictionary<string,string>> Upload(IFormFile file)
         {
             return this.excelProcessor.Process(file);
         }
